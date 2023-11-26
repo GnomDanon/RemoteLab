@@ -23,7 +23,6 @@ namespace DB
         public ApplicationContext()
         {
             Database.EnsureCreated();
-
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
