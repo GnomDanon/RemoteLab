@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQQTServer", "MQQTServer\MQQTServer.csproj", "{2BB4B770-36A6-403A-835A-76070656F122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BB4B770-36A6-403A-835A-76070656F122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB4B770-36A6-403A-835A-76070656F122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB4B770-36A6-403A-835A-76070656F122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB4B770-36A6-403A-835A-76070656F122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782A8DF6-E535-459B-88FF-BDD2AEF6574A}
+	EndGlobalSection
+EndGlobal
