@@ -7,7 +7,7 @@ namespace DB.Entities
         public string Name { get; set; }
         public string? Description { get; set; }
         public string VideostreamName { get; set; }
-        public string? AnsibleScript {  get; set; }
+        public string? AnsibleScript { get; set; }
         public Equipment Equipment { get; set; }
     }
 }

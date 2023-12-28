@@ -33,7 +33,7 @@ namespace HelloApp
                 db.Organizations.AddRange(organization);
                 db.SaveChanges();
 
-                Scheduler scheduler = new Scheduler { Group = group, SessionStartTime = DateTime.UtcNow, SessionEndTime = DateTime.UtcNow, IsActive = true};
+                Scheduler scheduler = new Scheduler { Group = group, SessionStartTime = DateTime.UtcNow, SessionEndTime = DateTime.UtcNow, IsActive = true };
                 db.Schedulers.AddRange(scheduler);
                 db.SaveChanges();
             }

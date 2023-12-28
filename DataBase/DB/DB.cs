@@ -8,7 +8,7 @@ namespace DB
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Permission> Permissions { get; set; }
-        public DbSet<Group> Groups { get; set; } 
+        public DbSet<Group> Groups { get; set; }
         public DbSet<Scheduler> Schedulers { get; set; }
         public DbSet<Shedule_Stand> Shedule_Stands { get; set; }
         public DbSet<Stand> Stands { get; set; }
